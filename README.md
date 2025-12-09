@@ -50,13 +50,13 @@ C# Solution Scanner is a powerful Windows Forms application designed to help dev
 │ Tree View:                                                      │
 │   ● Solution: MySolution                                        │
 │     ├── Projects                                                │
-│     │   ├── Project: MyProject.Core                            │
-│     │   │   ├── src\Models                                     │
-│     │   │   │   ├── User.cs                                    │
-│     │   │   │   │   ├── public class User                      │
-│     │   │   │   │   │   ├── public property Id                 │
-│     │   │   │   │   │   ├── public property Name               │
-│     │   │   │   │   │   └── public void Validate()             │
+│     │   ├── Project: MyProject.Core                             │
+│     │   │   ├── src\Models                                      │
+│     │   │   │   ├── User.cs                                     │
+│     │   │   │   │   ├── public class User                       │
+│     │   │   │   │   │   ├── public property Id                  │
+│     │   │   │   │   │   ├── public property Name                │
+│     │   │   │   │   │   └── public void Validate()              │
 ├─────────────────────────────────────────────────────────────────┤
 │ Output:                                                         │
 │ public class User {                                             │
@@ -65,7 +65,7 @@ C# Solution Scanner is a powerful Windows Forms application designed to help dev
 │     public void Validate() { }                                  │
 │ }                                                               │
 ├─────────────────────────────────────────────────────────────────┤
-│ [Text (Tree)] [Clear] [Copy] [Export] [About]                  │
+│ [Text (Tree)] [Clear] [Copy] [Export] [About]                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
