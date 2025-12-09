@@ -232,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 👨‍💻 **Author**  
 John Tsioumpris  
 - Email: tsgiannis@gmail.com  
-- Website: Solutions4It.guru  
+- Website: Solutions4it.guru  
 - GitHub: [@tsgiannis](https://github.com/tsgiannis)  
 
 For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others  
