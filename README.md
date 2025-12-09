@@ -88,7 +88,7 @@ CSharpFileScanner.sln
 ```
 
 **Requirements**  
-- .NET 8.0 Runtime (if using executable)  
+- .NET 4.7.2 Runtime (if using executable)  
 - Visual Studio 2022 (if building from source)  
 - Windows 10/11 (Windows Forms application)  
 
