@@ -71,14 +71,14 @@ C# Solution Scanner is a powerful Windows Forms application designed to help dev
 
 🛠️ **Installation**  
 **Option 1: Download Executable**  
-1. Download the latest release from [Releases](https://github.com/tsioumpris/csharp-solution-scanner/releases)  
+1. Download the latest release from [Releases](https://github.com/tsgiannis/SolutionScanner/releases)  
 2. Extract the ZIP file  
 3. Run CSharpFileScanner.exe  
 
 **Option 2: Build from Source**  
 ```bash
 # Clone the repository
-git clone https://github.com/tsioumpris/csharp-solution-scanner.git
+git clone https://github.com/tsgiannis/SolutionScanner.git
 
 # Open in Visual Studio
 cd csharp-solution-scanner
@@ -227,13 +227,13 @@ We welcome contributions! Here's how you can help:
 - Cross-platform support  
 
 📄 **License**  
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tsioumpris/csharp-solution-scanner/blob/main/LICENSE) file for details.  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tsgiannis/SolutionScanner/blob/main/LICENSE) file for details.  
 
 👨‍💻 **Author**  
 John Tsioumpris  
 - Email: tsgiannis@gmail.com  
 - Website: Solutions4It.guru  
-- GitHub: [@tsioumpris](https://github.com/tsioumpris)  
+- GitHub: [@tsgiannis](https://github.com/tsgiannis)  
 
 For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others  
 
@@ -244,7 +244,7 @@ For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others
 - Inspired by the need for better codebase visualization tools  
 
 📞 **Support**  
-- Report Issues: [GitHub Issues](https://github.com/tsioumpris/csharp-solution-scanner/issues)  
+- Report Issues: [GitHub Issues](https://github.com/tsgiannis/SolutionScanner/issues)  
 - Feature Requests: Open an issue with enhancement label  
 - Questions: Email tsgiannis@gmail.com  
 
