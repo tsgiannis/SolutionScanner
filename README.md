@@ -203,8 +203,8 @@ Solution: ECommerce → C:\Projects\ECommerce
 
 ```
 CSharpFileScanner/
-├── Form1.cs              # Main application form
-├── Form1.Designer.cs     # UI designer file
+├── SolutionScanner.cs              # Main application form
+├── SolutionScanner.Designer.cs     # UI designer file
 ├── AboutForm.cs          # About dialog
 ├── Program.cs           # Application entry point
 ├── CSharpFileScanner.csproj  # Project file
