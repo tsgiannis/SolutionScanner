@@ -254,4 +254,4 @@ If you find this tool useful, please give it a star on GitHub!
 
 Download now and transform how you visualize and analyze your C# solutions!  
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest_Release-blue)](https://github.com/tsgiannis/SolutionScanner/releases)  
-[![View Source Code](https://img.shields.io/badge/View-Source-Code-green)](https://github.com/tsgiannis/SolutionScanner)
+[![View Source Code](https://img.shields.io/badge/View-Source_Code-green)](https://github.com/tsgiannis/SolutionScanner)
