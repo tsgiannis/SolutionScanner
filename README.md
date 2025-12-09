@@ -1,56 +1,45 @@
-C# Solution Scanner & Analyzer
-🚀 Overview
-C# Solution Scanner is a powerful Windows Forms application designed to help developers analyze and document their C# solutions. It automatically scans through entire solution structures, extracts detailed information about classes, methods, properties, and more, presenting everything in an organized, exportable format.
+# C# Solution Scanner & Analyzer
 
-https://img.shields.io/badge/C%2523-Solution%2520Scanner-blue
-https://img.shields.io/badge/Platform-Windows-lightgrey
-https://img.shields.io/badge/.NET-8.0-purple
-https://img.shields.io/badge/License-MIT-green
+🚀 **Overview**  
+C# Solution Scanner is a powerful Windows Forms application designed to help developers analyze and document their C# solutions. It automatically scans through entire solution structures, extracts detailed information about classes, methods, properties, and more, presenting everything in an organized, exportable format.  
 
-✨ Features
-🔍 Intelligent Solution Analysis
-Recursive Scanning: Automatically discovers all .cs files within solution folders
+[![C# Solution Scanner](https://img.shields.io/badge/C%2523-Solution%2520Scanner-blue)](https://github.com/tsioumpris/csharp-solution-scanner)  
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://github.com/tsioumpris/csharp-solution-scanner)  
+[![.NET](https://img.shields.io/badge/.NET-8.0-purple)](https://github.com/tsioumpris/csharp-solution-scanner)  
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tsioumpris/csharp-solution-scanner/blob/main/LICENSE)  
 
-Smart Project Detection: Identifies .csproj files and organizes code by project
+✨ **Features**  
+🔍 **Intelligent Solution Analysis**  
+- Recursive Scanning: Automatically discovers all .cs files within solution folders  
+- Smart Project Detection: Identifies .csproj files and organizes code by project  
+- Solution File Recognition: Detects .sln files for proper solution hierarchy  
 
-Solution File Recognition: Detects .sln files for proper solution hierarchy
+📊 **Comprehensive Code Extraction**  
+- Class Information: Extracts all classes with access modifiers  
+- Member Details: Captures properties, fields, methods, and constructors  
+- Type Discovery: Identifies enums, structs, and interfaces  
+- Parameter Parsing: Extracts method/constructor parameters with types  
 
-📊 Comprehensive Code Extraction
-Class Information: Extracts all classes with access modifiers
+🌳 **Multiple View Modes**  
+- Tree View: Hierarchical display showing solution → projects → files → classes → members  
+- Flat List: One-line-per-item format for quick scanning  
+- JSON Export: Complete structured JSON data for programmatic use  
 
-Member Details: Captures properties, fields, methods, and constructors
+🎨 **Enhanced User Experience**  
+- Syntax Highlighting: Color-coded C# and JSON syntax for better readability  
+- Modern UI: Clean, responsive interface with Material Design elements  
+- Interactive Tree: Click nodes to view file contents or class details  
+- Progress Indicators: Visual feedback during scanning operations  
 
-Type Discovery: Identifies enums, structs, and interfaces
+📤 **Export Capabilities**  
+- Multiple Formats: Export as text (tree or flat) or JSON  
+- Clipboard Support: Copy any view to clipboard with one click  
+- File Export: Save scans to disk for documentation or analysis  
+- One-Click Email: Contact information with direct email composition  
 
-Parameter Parsing: Extracts method/constructor parameters with types
+🖥️ **Screenshot**  
 
-🌳 Multiple View Modes
-Tree View: Hierarchical display showing solution → projects → files → classes → members
-
-Flat List: One-line-per-item format for quick scanning
-
-JSON Export: Complete structured JSON data for programmatic use
-
-🎨 Enhanced User Experience
-Syntax Highlighting: Color-coded C# and JSON syntax for better readability
-
-Modern UI: Clean, responsive interface with Material Design elements
-
-Interactive Tree: Click nodes to view file contents or class details
-
-Progress Indicators: Visual feedback during scanning operations
-
-📤 Export Capabilities
-Multiple Formats: Export as text (tree or flat) or JSON
-
-Clipboard Support: Copy any view to clipboard with one click
-
-File Export: Save scans to disk for documentation or analysis
-
-One-Click Email: Contact information with direct email composition
-
-🖥️ Screenshot
-text
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │ C# Solution Scanner                                             │
 ├─────────────────────────────────────────────────────────────────┤
@@ -78,16 +67,16 @@ text
 ├─────────────────────────────────────────────────────────────────┤
 │ [Text (Tree)] [Clear] [Copy] [Export] [About]                  │
 └─────────────────────────────────────────────────────────────────┘
-🛠️ Installation
-Option 1: Download Executable
-Download the latest release from Releases
+```
 
-Extract the ZIP file
+🛠️ **Installation**  
+**Option 1: Download Executable**  
+1. Download the latest release from [Releases](https://github.com/tsioumpris/csharp-solution-scanner/releases)  
+2. Extract the ZIP file  
+3. Run CSharpFileScanner.exe  
 
-Run CSharpFileScanner.exe
-
-Option 2: Build from Source
-bash
+**Option 2: Build from Source**  
+```bash
 # Clone the repository
 git clone https://github.com/tsioumpris/csharp-solution-scanner.git
 
@@ -96,39 +85,35 @@ cd csharp-solution-scanner
 CSharpFileScanner.sln
 
 # Build and run (F5)
-Requirements
-.NET 8.0 Runtime (if using executable)
+```
 
-Visual Studio 2022 (if building from source)
+**Requirements**  
+- .NET 8.0 Runtime (if using executable)  
+- Visual Studio 2022 (if building from source)  
+- Windows 10/11 (Windows Forms application)  
 
-Windows 10/11 (Windows Forms application)
+🚀 **Quick Start Guide**  
+**Step 1: Select Solution Folder**  
+Click the Browse button and navigate to your solution folder containing .sln and .csproj files.  
 
-🚀 Quick Start Guide
-Step 1: Select Solution Folder
-Click the Browse button and navigate to your solution folder containing .sln and .csproj files.
+**Step 2: Scan Solution**  
+Click the Scan button to analyze all C# files in the solution.  
 
-Step 2: Scan Solution
-Click the Scan button to analyze all C# files in the solution.
+**Step 3: Explore Results**  
+- Navigate the tree view to explore solution structure  
+- Click on files to view their contents with syntax highlighting  
+- Click on classes to see detailed member information  
 
-Step 3: Explore Results
-Navigate the tree view to explore solution structure
+**Step 4: Export Data**  
+Choose your preferred format and click Export:  
+- Text (Tree): Hierarchical text representation  
+- Text (Flat): Simple one-line-per-item format  
+- JSON: Structured data for APIs or further processing  
 
-Click on files to view their contents with syntax highlighting
+📖 **Usage Examples**  
+**Example 1: Scan a Solution**  
 
-Click on classes to see detailed member information
-
-Step 4: Export Data
-Choose your preferred format and click Export:
-
-Text (Tree): Hierarchical text representation
-
-Text (Flat): Simple one-line-per-item format
-
-JSON: Structured data for APIs or further processing
-
-📖 Usage Examples
-Example 1: Scan a Solution
-text
+```
 Input: C:\Projects\ECommerce\
 Output:
 Solution: ECommerce → C:\Projects\ECommerce
@@ -140,8 +125,10 @@ Solution: ECommerce → C:\Projects\ECommerce
 │   │   │   │   │   ├── public property Id : int
 │   │   │   │   │   ├── public property Name : string
 │   │   │   │   │   └── public decimal CalculatePrice()
-Example 2: Export to JSON
-json
+```
+
+**Example 2: Export to JSON**  
+```json
 {
   "Name": "MySolution",
   "Path": "C:\\Projects\\MySolution",
@@ -172,64 +159,49 @@ json
     }
   ]
 }
-🎯 Use Cases
-For Developers
-Codebase Documentation: Generate quick overviews of solution structure
+```
 
-Legacy Code Analysis: Understand unfamiliar codebases quickly
+🎯 **Use Cases**  
+**For Developers**  
+- Codebase Documentation: Generate quick overviews of solution structure  
+- Legacy Code Analysis: Understand unfamiliar codebases quickly  
+- Architecture Review: Analyze project dependencies and organization  
+- Migration Planning: Assess code structure before refactoring  
 
-Architecture Review: Analyze project dependencies and organization
+**For Teams**  
+- Onboarding: Help new team members understand codebase structure  
+- Knowledge Sharing: Create reference documentation for team members  
+- Code Standards: Check for consistent naming and access patterns  
+- Audit Trails: Document solution states at different points in time  
 
-Migration Planning: Assess code structure before refactoring
+**For Project Managers**  
+- Progress Tracking: Monitor codebase growth and complexity  
+- Resource Estimation: Understand code volume for planning  
+- Technical Reporting: Generate reports for stakeholders  
 
-For Teams
-Onboarding: Help new team members understand codebase structure
+🔧 **Technical Details**  
+**Supported C# Constructs**  
+- Classes (public, private, internal, protected)  
+- Properties (auto-properties with get/set)  
+- Methods (with return types and parameters)  
+- Constructors (with parameters)  
+- Fields/Variables  
+- Enums, Structs, and Interfaces  
 
-Knowledge Sharing: Create reference documentation for team members
+**File Support**  
+- .cs files (C# source code)  
+- .csproj files (project files)  
+- .sln files (solution files)  
 
-Code Standards: Check for consistent naming and access patterns
+**Performance**  
+- Fast Scanning: Processes hundreds of files in seconds  
+- Memory Efficient: Stream-based file reading  
+- Async Operations: Non-blocking UI during scans  
+- Incremental Updates: Real-time progress reporting  
 
-Audit Trails: Document solution states at different points in time
+📁 **Project Structure**  
 
-For Project Managers
-Progress Tracking: Monitor codebase growth and complexity
-
-Resource Estimation: Understand code volume for planning
-
-Technical Reporting: Generate reports for stakeholders
-
-🔧 Technical Details
-Supported C# Constructs
-Classes (public, private, internal, protected)
-
-Properties (auto-properties with get/set)
-
-Methods (with return types and parameters)
-
-Constructors (with parameters)
-
-Fields/Variables
-
-Enums, Structs, and Interfaces
-
-File Support
-.cs files (C# source code)
-
-.csproj files (project files)
-
-.sln files (solution files)
-
-Performance
-Fast Scanning: Processes hundreds of files in seconds
-
-Memory Efficient: Stream-based file reading
-
-Async Operations: Non-blocking UI during scans
-
-Incremental Updates: Real-time progress reporting
-
-📁 Project Structure
-text
+```
 CSharpFileScanner/
 ├── Form1.cs              # Main application form
 ├── Form1.Designer.cs     # UI designer file
@@ -237,66 +209,49 @@ CSharpFileScanner/
 ├── Program.cs           # Application entry point
 ├── CSharpFileScanner.csproj  # Project file
 └── README.md            # This file
-🤝 Contributing
-We welcome contributions! Here's how you can help:
+```
 
-Fork the repository
+🤝 **Contributing**  
+We welcome contributions! Here's how you can help:  
+1. Fork the repository  
+2. Create a feature branch (git checkout -b feature/AmazingFeature)  
+3. Commit your changes (git commit -m 'Add some AmazingFeature')  
+4. Push to the branch (git push origin feature/AmazingFeature)  
+5. Open a Pull Request  
 
-Create a feature branch (git checkout -b feature/AmazingFeature)
+**Areas for Improvement**  
+- Enhanced C# parsing (generics, async methods, attributes)  
+- Additional export formats (XML, CSV, Markdown)  
+- Performance optimizations for very large solutions  
+- Plugin system for custom analyzers  
+- Cross-platform support  
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+📄 **License**  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tsioumpris/csharp-solution-scanner/blob/main/LICENSE) file for details.  
 
-Push to the branch (git push origin feature/AmazingFeature)
+👨‍💻 **Author**  
+John Tsioumpris  
+- Email: tsgiannis@gmail.com  
+- Website: Solutions4It.guru  
+- GitHub: [@tsioumpris](https://github.com/tsioumpris)  
 
-Open a Pull Request
+For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others  
 
-Areas for Improvement
-Enhanced C# parsing (generics, async methods, attributes)
+🙏 **Acknowledgments**  
+- Built with .NET Windows Forms  
+- Uses MaterialSkin for modern UI components  
+- Newtonsoft.Json for JSON serialization  
+- Inspired by the need for better codebase visualization tools  
 
-Additional export formats (XML, CSV, Markdown)
+📞 **Support**  
+- Report Issues: [GitHub Issues](https://github.com/tsioumpris/csharp-solution-scanner/issues)  
+- Feature Requests: Open an issue with enhancement label  
+- Questions: Email tsgiannis@gmail.com  
 
-Performance optimizations for very large solutions
+⭐ **Show Your Support**  
+If you find this tool useful, please give it a star on GitHub!  
+[![GitHub stars](https://img.shields.io/github/stars/tsioumpris/csharp-solution-scanner?style=social)](https://github.com/tsioumpris/csharp-solution-scanner)  
 
-Plugin system for custom analyzers
-
-Cross-platform support
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-👨‍💻 Author
-John Tsioumpris
-
-Email: tsgiannis@gmail.com
-
-Website: Solutions4It.guru
-
-GitHub: @tsioumpris
-
-For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others
-
-🙏 Acknowledgments
-Built with .NET Windows Forms
-
-Uses MaterialSkin for modern UI components
-
-Newtonsoft.Json for JSON serialization
-
-Inspired by the need for better codebase visualization tools
-
-📞 Support
-Report Issues: GitHub Issues
-
-Feature Requests: Open an issue with enhancement label
-
-Questions: Email tsgiannis@gmail.com
-
-⭐ Show Your Support
-If you find this tool useful, please give it a star on GitHub!
-
-https://img.shields.io/github/stars/tsioumpris/csharp-solution-scanner?style=social
-
-Download now and transform how you visualize and analyze your C# solutions!
-
-https://img.shields.io/badge/Download-Latest%2520Release-blue
-https://img.shields.io/badge/View-Source%2520Code-green
+Download now and transform how you visualize and analyze your C# solutions!  
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%2520Release-blue)](https://github.com/tsioumpris/csharp-solution-scanner/releases)  
+[![View Source Code](https://img.shields.io/badge/View-Source%2520Code-green)](https://github.com/tsioumpris/csharp-solution-scanner)
