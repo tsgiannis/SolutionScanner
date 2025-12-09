@@ -4,9 +4,9 @@
 C# Solution Scanner is a powerful Windows Forms application designed to help developers analyze and document their C# solutions. It automatically scans through entire solution structures, extracts detailed information about classes, methods, properties, and more, presenting everything in an organized, exportable format.  
 
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://github.com/tsioumpris/SolutionScanner)  
-[![.NET](https://img.shields.io/badge/.NET-4.7.2-purple)](https://github.com/tsioumpris/SolutionScanner)  
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tsioumpris/SolutionScanner/blob/main/LICENSE)  
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://github.com/tsgiannis/SolutionScanner)  
+[![.NET](https://img.shields.io/badge/.NET-4.7.2-purple)](https://github.com/tsgiannis/SolutionScanner)  
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tsgiannis/SolutionScanner/blob/main/LICENSE)  
 
 ✨ **Features**  
 🔍 **Intelligent Solution Analysis**  
@@ -250,8 +250,8 @@ For all your programming needs: .NET, Python, SQL, Ms Access/VBA, ML/DL & Others
 
 ⭐ **Show Your Support**  
 If you find this tool useful, please give it a star on GitHub!  
-[![GitHub stars](https://img.shields.io/github/stars/tsioumpris/csharp-solution-scanner?style=social)](https://github.com/tsioumpris/csharp-solution-scanner)  
+[![GitHub stars](https://img.shields.io/github/stars/tsgiannis/SolutionScanner?style=social)](https://github.com/tsgiannis/SolutionScanner)  
 
 Download now and transform how you visualize and analyze your C# solutions!  
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%2520Release-blue)](https://github.com/tsioumpris/csharp-solution-scanner/releases)  
-[![View Source Code](https://img.shields.io/badge/View-Source%2520Code-green)](https://github.com/tsioumpris/csharp-solution-scanner)
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%2520Release-blue)](https://github.com/tsgiannis/SolutionScanner/releases)  
+[![View Source Code](https://img.shields.io/badge/View-Source%2520Code-green)](https://github.com/tsgiannis/SolutionScanner)
