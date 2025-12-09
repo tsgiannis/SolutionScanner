@@ -1,5 +1,5 @@
 C# Solution Scanner & Analyzer
-🚀 Overview
+🚀 Overview  
 C# Solution Scanner is a powerful Windows Forms application designed to help developers analyze and document their C# solutions. It automatically scans through entire solution structures, extracts detailed information about classes, methods, properties, and more, presenting everything in an organized, exportable format.
 
 ✨ Features
