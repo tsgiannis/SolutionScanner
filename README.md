@@ -3,10 +3,10 @@
 🚀 **Overview**  
 C# Solution Scanner is a powerful Windows Forms application designed to help developers analyze and document their C# solutions. It automatically scans through entire solution structures, extracts detailed information about classes, methods, properties, and more, presenting everything in an organized, exportable format.  
 
-[![C# Solution Scanner](https://img.shields.io/badge/C%2523-Solution%2520Scanner-blue)](https://github.com/tsioumpris/csharp-solution-scanner)  
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://github.com/tsioumpris/csharp-solution-scanner)  
-[![.NET](https://img.shields.io/badge/.NET-8.0-purple)](https://github.com/tsioumpris/csharp-solution-scanner)  
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tsioumpris/csharp-solution-scanner/blob/main/LICENSE)  
+[![C# Solution Scanner](https://img.shields.io/badge/SolutionScanner)](https://github.com/tsioumpris/SolutionScanner)  
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](https://github.com/tsioumpris/SolutionScanner)  
+[![.NET](https://img.shields.io/badge/.NET-8.0-purple)](https://github.com/tsioumpris/SolutionScanner)  
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tsioumpris/SolutionScanner/blob/main/LICENSE)  
 
 ✨ **Features**  
 🔍 **Intelligent Solution Analysis**  
